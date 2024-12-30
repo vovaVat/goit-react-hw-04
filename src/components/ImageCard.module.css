@@ -1,0 +1,17 @@
+.galleryItem {
+  flex: 1 1 calc(33.33% - 10px);
+  box-sizing: border-box;
+}
+
+.galleryItem img {
+  width: 600px;
+  height: 300px;
+  border-radius: 8px;
+  display: block;
+  background-size: cover;
+  transition: transform 0.3s ease;
+}
+
+.galleryItem img:hover {
+  transform: scale(1.03);
+}
